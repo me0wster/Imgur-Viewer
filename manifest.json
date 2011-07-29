@@ -1,0 +1,12 @@
+{
+	"name": "Imgur Viewr",
+	"version": "0.1",
+	"description": "View Imgur Images",
+	"content_scripts": [
+		{
+			"matches": ["http://imgur.com/gallery"],
+			"css": ["jquery-lightbox-0.5/css/jquery.lightbox-0.5.css"],
+			"js": ["jquery.min.1.6.2.js", "jquery-lightbox-0.5/js/jquery.lightbox-0.5.js", "main.js"]
+		}
+	]
+}
